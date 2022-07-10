@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!--BOX ICONS-->
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/CSS/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+
+    <body>
+        <!--HEADER-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+               <a href="#" class="nav__logo">Mihai</a> 
+
+               <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bxs-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon' ></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bxs-receipt nav__icon' ></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class='bx bx-briefcase nav__icon' ></i>Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bxs-award nav__icon' ></i>Certificates
+                        </a>
+                    </li>
+                </ul>
+               </div>
+               <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+               </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!--All elements with this div, are generated in PDF-->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+            <!--HOME-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/image.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">CHILOM<b> MIHAI AURELIAN</b></h1>
+                                <h3 class="home__profession">Student</h3>
+
+                                  <!--Button to download CV saved in PDF folder. Available for mobile-->
+                                  <div>
+                                    <a download="" href="assets/pdf/ResumeCV.pdf" class="home__button-movil">Download</a>
+                                  </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i>Str. Maresal Alexandru Averescu nr.19, Bl.D15, Sc.3, Ap4
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bxs-city home__icon' ></i>Craiova
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i>chilommihai2000@gmail.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i>0735557656
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i>200068
+                                </span>
+                            </div>
+                        </div>
+
+                         <!--Button to change the theme-->
+                        <i class='bx bxs-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                        <!--Button to generate and download pdf. Available for desktop-->
+                        <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+
+
+
+
+            <!--SOCIAL-->
+<!-- 
+            <section class="class section">
+                <h2 class="section-title">
+                    SOCIAL
+                </h2>
+
+                <div class="social__container bd-grid">
+                    <a href="https://www.linkedin.com" target="_blank" class="social__link">
+                        <i class='bx bxl-linkedin-square social__icon' ></i>Mihai Chilom
+                    </a>
+
+                    <a href="https://www.facebook.com" target="_blank"class="social__link">
+                        <i class='bx bxl-facebook-circle social__icon' ></i>Chilom Mihai
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank"class="social__link">
+                        <i class='bx bxl-instagram social__icon' ></i>mihai_chilom
+                    </a>
+                </div>
+            </section> -->
+
+
+            <!--PROFILE-->
+
+            <section class="profile section" id="profile">
+                <h2 class="section-title">Profile</h2>
+
+                <p class="profile__description">
+                    Highly energetic and communicative computer science student that holds a
+                    positive attitude throughout any challenges. I can easily adapt to any work style
+                    and to any situation that might arise. Great team player as I hold a strong belief
+                    that working in a team vastly improves learning and enables the creation of
+                    high-quality projects. I am always looking for ways to improve my skills and
+                    new skills to learn so I can add value to the teams I'm a part of.
+                </p>
+            </section>
+
+
+            <!--EDUCATION-->
+
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div class="edication__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">University</h3>
+                            <span class="education__studies">Faculty of Automation, Computers and Electronics</span>
+                            <span class="education__domain">Banchelors of Computer Science.
+                                Additional module of Psychopedagogy.
+                            </span>
+                            <span class="education__year">2019-Present</span>
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div class="edication__time">
+                            <span class="education__rounder"></span>
+                            <!-- <span class="education__line"></span> -->
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">High School</h3>
+                            <span class="education__studies">National Collage Pedagogic Stefan Velovan</span>
+                            <span class="education__profile">Philoligy</span>
+                            <span class="education__year">2015-2019</span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!--SKILLS-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>JavaScript
+                    </li>
+
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>CSS
+                    </li>
+
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>HTML
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>Java
+                    </li>
+
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>SQL
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>.NET Framework
+                    </li>
+                </ul>
+
+
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>C
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>C++
+                    </li>
+
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>C#
+                    </li>
+
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>Matlab
+                    </li>
+                </ul>
+            </div>
+            </section>
+            </div>
+                
+
+
+            <div class="resume__right">
+
+            
+           <!--PROJECTS-->
+                <sectiom class="projects section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+
+                    <div class="projects__container bd-grid">
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__rounder"></span>
+                                <span class="projects__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">Space Battle</h3>
+                                <span class="projects__company">Craiova</span>
+                                <p class="projects__description">
+                                    This is my first project ever. In this project, I created a game In Visual Studio in C++
+                                    and the SFML program language. Space Battle is a co-op game in which you control
+                                    a plane that can move in any direction you want and destroy the enemies which are
+                                    randomly spawned from the right side of the screen. The players have a static
+                                    number of hit-points(10), but the enemies have a random amount(1, 2, or 3
+                                    hitpoints). If the player destroys several enemies, the level of the plane increases
+                                    and if he runs out of lives then the other player wins.
+                                    </p><a href="https://github.com/Sp3ed01/SpaceBattle" target="_blank" class="social__link">Link to project</a>
+                                    
+                            </div> 
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__rounder"></span>
+                                <span class="projects__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">Run to city</h3>
+                                <span class="projects__company">Craiova</span>
+                                <p class="projects__description">
+                                    This is a game developed in the Unity game engine using the C# programming
+                                    language. The player controls a character that runs and must avoid obstacles that
+                                    spawn in a matter of seconds. The character has physical attributes, which means
+                                    that they can jump, and the gravity will pull them back to the ground, or after they hit
+                                    an object, they stop and make a dying animation. The game also has sounds for
+                                    background music and player actions like jumping.
+                                    </p>
+                                    <a href="https://github.com/Sp3ed01/Run-To-City" target="_blank" class="social__link">Link to project</a>
+                            </div> 
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__rounder"></span>
+                                <span class="projects__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">ToolKitApp</h3>
+                                <span class="projects__company">Craiova</span>
+                                <p class="projects__description">
+                                    This is my first interaction with C#.NET, so I decide to make a simple but efficient application that can help me to learn the basics.
+                                    That is a basic tool kit application that allows us to open up a browser tab for specific websites that I have defined.
+                                    That browsers are Facebook, Google and Youtube. If we want to open up Google, we press "g" and then press the enter key and then a Google tab comes up.                                
+                                    </p>
+                                    <a href="https://github.com/Sp3ed01/ToolKitApp" target="_blank" class="social__link">Link to project</a>
+
+                            </div> 
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__rounder"></span>
+                                <!-- <span class="projects__line"></span> -->
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">CV</h3>
+                                <span class="projects__company">Craiova</span>
+                                <p class="projects__description">
+                                    This is my own resume. The languages ​​used to create it are HTML, CSS, and JavaScript. The application is responsible for users who use the phone as well as for those who use the desktop. You can find my projects as well as a link for each one, the address where I live, the languages ​​that I speak, my hobbies, the institutions where I studied and each skill.
+                                    The first feature for people who use their mobile phones is the download button, located in the middle of the screen,
+                                    where you can download the resume. Another functionality is "ScrollTop", which allows the user to go back to the beginning of the resume. When he scrolls down, an arrow appears on the right side which, once pressed, sends it to the top of the resume. The third functionality added is "Header-menu". At the bottom of the resume, you can see a header that
+                                    contains my name and a menu. That menu is to help the user get to a chapter of the resume faster. E.g, if he wants to see what projects I have done, open the menu and click on the "Projects" icon and he will be redirected to projects.
+                                    For users who use the desktop, the only functionality is the download button at the top left, next to the profile picture. The project also has a "Dark mode" button to change the theme to a darker one.
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    </p>
+                            </div> 
+                        </div>
+                    </div>
+                </sectiom>
+
+            <!--CERTIFICATES-->
+                
+
+            <section class="certificate section" id="certificates">
+                <h2 class="section-title">Certificates</h2>
+
+                <div class="certificate__container bd-grid">
+                    <div class="certificate__content">
+                        <h3 class="certificate__title">Voluntary at "Adopta un copac!"</h3>
+                        <!-- <p class="certificate__description"></p> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--LANGUAGES-->
+
+
+            <section class="languages section">
+                <h2 class="section-title">Languages</h2>
+                <div class="languages__container">
+                    <ul class="languages__content bd-grid">
+                        <li class="languages__name">
+                            <span class="languages__circle"></span>Romanian
+                        </li>
+                        <li class="languages__name">
+                            <span class="languages__circle"></span>English
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+ 
+             <!--HOBIES-->
+            <section class="hobies section">
+                <h2 class="section-title">Hobies</h2>
+            
+                <div class="hobies__container bd-grid">
+                    <div class="hobies__content">
+                        <i class='bx bx-football hobies__icon' ></i>
+                        <span class="hobies__name">Sport</span>
+                    </div>
+
+                    <div class="hobies__content">
+                        <i class='bx bx-headphone hobies__icon' ></i>
+                        <span class="hobies__name">Music</span>
+                    </div>
+                        
+                    <div class="hobies__content">
+                        <i class='bx bxs-plane-alt hobies__icon' ></i>
+                        <span class="hobies__name">Travel</span>
+                    </div>
+                </div>
+            
+
+             </section>
+                </div>
+            </div>
+        </main>
+        
+        <!--SCROLL TOP-->
+
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--HTML2PDF-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--MAIN JS-->
+        <script src="assets/js/main.js"></script>
+    </body>
+    </html>
