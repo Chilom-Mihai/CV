@@ -85,16 +85,16 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-/*REDUCE THE SIZE AND PRINT ON AN A4 SHEET*/
-function scaleCV(){
-    document.body.classList.add('scale-cv')
-}
+// /*REDUCE THE SIZE AND PRINT ON AN A4 SHEET*/-it doesn`t work correctly
+// function scaleCV(){
+//     document.body.classList.add('scale-cv')
+// }
 
 
-/*REMOVE THE SIZE WHEN THE CV IS DOWNLOADED*/ 
-function removeScale(){
-    document.body.classList.remove('scale-cv')
-}
+/*REMOVE THE SIZE WHEN THE CV IS DOWNLOADED*-it doesn`t work correctly/ 
+// function removeScale(){
+//     document.body.classList.remove('scale-cv')
+// }
 
 
 /*Generate PDF*/ 
@@ -122,12 +122,12 @@ function generateResume(){
 
 //When the button in clicked, it executes the 3 functions
 resumeButton.addEventListener('click', ()=>{
-    //1. The class .scale-cv is added to the body, where it reduces the size of the 
-    scaleCV()
+    //1. The class .scale-cv is added to the body, where it reduces the size 
+    // scaleCV()-it doesn`t work correctly
 
     //2. The PDF is generated.
     generateResume()
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-    setTimeout(removeScale, 5000)
+    // setTimeout(removeScale, 5)-it doesn`t work correctly
 })
